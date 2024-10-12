@@ -1,0 +1,32 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+h1{
+    color:red;
+    background-color:black;
+}
+#username{
+    text-decoration: underline;
+}
+.password{
+    text-decoration:wavy underline;
+}
+div p{
+    color:green;
+    background-color:antiquewhite;
+}
+button{
+    background-color:Black;
+    color:red;
+}
+button:hover{
+    background-color:red;
+    color:black;
+}
+button:active{
+    background-color:white;
+    color:brown;
+}
+h1::first-letter{
+    color:green;
+}

@@ -1,0 +1,42 @@
+#outer{
+    border-width: 5px;
+    height:200px;
+    width:10%;
+    border-style: double;
+    border-color:black;
+    
+}
+.red{
+    height:60px;
+    width:60px;
+    border-radius:50%;
+    background-color:red;
+    align-items: center;
+    text-align: center;
+    padding:1px;
+    margin:5px;
+    padding-left: 5px;
+}
+.yellow{
+    height:60px;
+    width:60px;
+    border-radius:50%;
+    background-color: yellow;
+    align-items: center;
+    text-align: center;
+    padding:1px;
+    margin:5px;
+    padding-left: 5px;
+}
+.green{
+    height:60px;
+    width:60px;
+    border-radius:50%;
+    background-color:green;
+    align-items: center;
+    text-align: center;
+    padding:1px;
+    margin:5px;
+    padding-left: 5px;
+    
+}

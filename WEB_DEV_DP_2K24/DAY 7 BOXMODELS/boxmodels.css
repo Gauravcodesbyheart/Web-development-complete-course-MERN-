@@ -1,0 +1,24 @@
+.justify{
+    background-color:blue;
+    height:300px;
+    width:50%;
+    border-color: chartreuse;
+    border-style:dotted;
+    border-width:5px;
+    padding:5px;
+}
+h2{
+    border:5px solid red;
+}
+/* border shorthand: width style color */
+h3{
+    border-left-style: double;
+    border-color:blue;
+    border-right-style:dotted;
+    border-width:5px;
+}
+#content{
+    color:red;
+    background-color: bisque;
+    border-radius: 50%;
+}

@@ -1,0 +1,17 @@
+h1{ 
+   text-align: center;
+   color: rgb(255, 0, 0);
+   text-decoration: black underline;
+}
+h4{
+    text-align: left;
+}
+h3{
+    text-align: right;
+    font-weight: 700;
+}
+p{
+   text-align: justify;
+   line-height: 2px;
+   letter-spacing: 3px;
+}

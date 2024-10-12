@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLES IN HTML </title>
+</head>
+
+<body>
+    <h1> The simplest table in html is given below -</h1>
+    <table border="black">
+        <caption> FOOD MENU </caption>
+        <tr>
+            <th>ITEM </th>
+            <th>PRICE </th>
+        </tr>
+        <tr>
+            <td>Frooti </td>
+            <td> 10 </td>
+        </tr>
+        <tr>
+            <td> Samosa </td>
+            <td> 12 </td>
+        </tr>
+        <tr>
+            <td> Chips </td>
+            <td> 20 </td>
+        </tr>
+    </table>
+    <!-- applying semantics in html table and application of rowspan and colspan in html -->
+    <h2> table with the use of rowspan and colspan </h2>
+    <table border="black">
+        <caption> FOOD MENU </caption>
+        <thead>
+                <th rowspan="2"> ITEM </th>
+                <th colspan="2"> PRICE </th>
+            <tr>
+                <th>INR</th>
+                <th>USD</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Frooti</td>
+                <td>10</td>
+                <td>0.14</td>
+            </tr>
+            <tr>
+                <td>Samosa</td>
+                <td> 12</td>
+                <td>0.17</td>
+            </tr>
+            <tr>
+                <td>Chips</td>
+                <td>20</td>
+                <td>0.28</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>practise question of table important </h2>
+    <table border ="black">
+        <tr>
+            <th rowspan="2"> </th>
+            <th colspan="2"> AVERAGE</th>
+            <th rowspan="2"> Red eyes </th>
+        </tr>
+        <tr>
+            <th> HEIGHT</th>
+            <th> WEIGHT</th>
+            
+        </tr>
+        <tr>
+            <td>MALES</td>
+            <td>1.9</td>
+            <td>0.003</td>
+            <td>40</td>
+        </tr>
+        <tr>
+            <td>FEMALES</td>
+            <td>1.7</td>
+            <td>0.002</td>
+            <td>30</td>
+        </tr>
+    </table>
+</body>
+
+</html>

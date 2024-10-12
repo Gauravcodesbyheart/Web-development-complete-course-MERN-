@@ -1,0 +1,191 @@
+@media only screen and (max-width:700px){
+    .btn{
+        padding:10px;
+    }
+    .details-box{
+        width:90%;
+        height:auto;
+        padding:2rem;
+    }
+    .details-box h1{
+        font-weight:bold;
+        font-size: 40px;
+    }
+    .details-box p{
+        font-weight:400;
+        font-size: 30px;
+    }
+    .biochar .box{
+        width:60%
+    }
+    .biochar .box h1{
+        font-size:50px;
+    }
+    .biochar .img{
+        width:30%;
+        gap:30px;
+    }
+    .sitos-img{
+        width:100%;
+        flex-wrap:no-wrap;
+    }
+    .card-img{
+        width:150px;
+        height:150px;
+    }
+}
+@media only screen and (max-width:550px){
+    .main h1{
+        font-size: 50px;
+      }
+      .nav-links ul{
+        gap:10px;
+      }
+      .nav-links li{
+        font-size:14px;
+      }
+    .details-box{
+        width:95%;
+        height:auto;
+        padding:2rem;
+    }
+    .details-box h1{
+        font-size: 38px;
+    }
+    .details-box p{
+        font-weight:400;
+        font-size: 26px;
+    }
+    .biochar{
+        flex-direction: column;
+    }
+    .biochar .box{
+        width:90%;
+    }
+    .biochar .box h1{
+        font-size:40px;
+    }
+    .biochar .box p{
+        font-size:16px;
+        font-weight:lighter;
+    }
+    .biochar .img{
+        width:90%;
+        gap:30px;
+    }
+    .sitos-img{
+        width:100%;
+        flex-wrap:no-wrap;
+    }
+    .card{
+        width:33%
+    }
+    .biochar-creation .box h1{
+        font-size:55px;
+        font-weight:350
+    }
+    .biochar-creation .box p{
+        font-size:1.2rem;
+        font-weight:lighter
+    }
+    .help-us .box h1{
+        font-size:45px;
+    }
+}
+
+@media only screen and (max-width:450px){
+    .logo{
+        width:20%;
+    }
+    .main h1{
+        font-size: 40px;;
+      }
+      .nav-links ul{
+        gap:7px;
+      }
+    .details-box{
+        width:98%;
+        padding:1.5rem;
+    }
+    .details-box h1{
+        font-size: 38px;
+    }
+    .details-box p{
+        font-weight:400;
+        font-size: 20px;
+    }
+    .biochar{
+        flex-direction: column;
+    }
+    .biochar .box{
+        width:90%;
+        gap:10px;
+    }
+    .biochar .box h1{
+        font-size:40px;
+    }
+    .biochar .box p{
+        font-size:12px;
+        font-weight:lighter;
+        line-height:1.1;
+    }
+    .biochar .img{
+        width:90%;
+    }
+    .biochar-creation .box{
+        width:98%;
+    }
+    .biochar-creation .box h1{
+        font-size:45px;
+        font-weight:350
+    }
+    .biochar-creation .box p{
+        font-size:0.8rem;
+        font-weight:lighter
+    }
+    .help-us .box h1{
+        font-size:38px;
+    }
+    .btn-group{
+        width:80%;
+        min-height:100px;
+        padding:6px;
+        background:#141313;
+        border-radius:10px;
+    }
+}
+
+@media only screen and (max-width:450px){
+    .logo{
+        width:15%;
+    }
+    .nav-links li{
+        font-size: 8px;
+    }
+    .why-sitos{
+        width:100%;
+        min-height:85vh;
+    }
+    .sitos-img h1{
+      font-size:20px;
+    }
+    
+}
+@media only screen and (max-width:330px){
+    .btn{
+        padding:6px;
+    }
+    .logo{
+        width:15%;
+    }
+    .nav-links li{
+        display:none;
+    }
+    .main h1{
+        font-size:30px;
+    }
+    .biochar-creation .box h1{
+        font-size:35px;
+        font-weight:350;
+    }
+}

@@ -1,0 +1,32 @@
+
+#pets{
+    height:500px;
+    width:1000px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    }
+.card{
+    height:500px;
+    width:500px;
+    background-color: white;
+    border-radius:5px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+.image{
+    height:250px;
+    width:480px;
+    border-radius: 20px;
+    margin:auto;
+    padding:10px;
+}
+@media(max-width:520px){
+   #pets{
+    flex-wrap:wrap;
+   }
+}
+p{
+    padding: 5px;
+}

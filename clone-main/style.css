@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  width: 100%;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+  background: #a9ef40;
+}
+::-webkit-scrollbar-track {
+  width: 2px;
+  background: #646b59;
+}
+::-webkit-scrollbar-thumb {
+  background: #7eaf35;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.btn {
+  background: #a9ef40;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+.btn:hover {
+  transition: all 0.3s ease;  /* propertyname duration timing function delay */
+  background-color: #7eaf35;
+}
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)),
+    url("images/pexels-samandgos-709552.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  position: relative;
+}
+
+/* linear gradient --  The provided CSS code creates a background with a linear gradient overlay on a background image. The gradient transitions from a semi-transparent black (rgba(0, 0, 0, 0.1)) to a more opaque black (rgba(0, 0, 0, 0.9)) from left to right, applied over the specified image. */
+
+
+header {
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  top: 0%;
+  z-index: 2;
+}
+.nav-bar {
+  width: 90%;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 20%;
+  height: 90%;
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: center;
+}
+.nav-links li {
+  list-style-type: none;
+  position: relative;
+}
+.nav-links li:hover {
+  text-decoration: underline;
+}
+/*  here above hover for underline is given  */
+
+.main {
+  width: 80%;
+  height: 100%;
+  flex-direction: column;
+}
+.main h1 {
+  font-size: 60px;
+}
+.main h1 span {
+  /* text-decoration: underline;
+    color:#a9ef40; */
+  position: relative;
+  z-index: 4;
+}
+.main h1 span::after {
+  content: "";
+  width: 100%;
+  height: 5px;
+  background: #a9ef40;
+  position: absolute;
+  left: 0%;
+  bottom: 5%;
+}
+
+.return-to-top {
+  position: fixed;
+  bottom: 5%;
+  right: 3%;
+}
+.what-we-do {
+  width: 100%;
+  height: auto;
+  background: white;
+  background-attachment: fixed;
+}
+.details-box {
+  width: 60%;
+  height: auto;
+  padding: 2rem;
+}
+.details-box h1 {
+  font-weight: bold;
+  font-size: 40px;
+}
+.details-box p {
+  font-weight: 400;
+  font-size: 36px;
+}
+.details-box p span {
+  position: relative;
+}
+.details-box p span::after {
+  content: "";
+  width: 100%;
+  height: 4px;
+  background: #a9ef40;
+  position: absolute;
+  left: 0%;
+  bottom: 5%;
+}
+.biochar {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)),
+    url("images/DSC_0082.JPG");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+.biochar .box {
+  width: 70%;
+  height: auto;
+  align-items: start;
+  flex-direction: column;
+}
+.biochar .box h1 {
+  font-size: 56px;
+  font-weight: 450;
+}
+.biochar .box p {
+  margin-top: 2%;
+}
+.biochar .img {
+  width: 20%;
+  height: 40%;
+  background: url("images/DSC_0022.JPG");
+  background-size: cover;
+  border: 2px solid white;
+}
+
+.biochar p span {
+  position: relative;
+}
+.biochar p span::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #a9ef40;
+  position: absolute;
+  left: 0%;
+  bottom: 5%;
+}
+.why-sitos {
+  width: 100%;
+  min-height: 70vh;
+  background: white;
+  background-attachment: fixed;
+  /* margin-bottom:60px; */
+  flex-direction: column;
+}
+.sitos-img {
+  width: 90%;
+  height: auto;
+  justify-content: center;
+}
+.card {
+  width: 30%;
+  height: 30vh;
+}
+.card-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+.card-img h1 {
+  font-size: 20px;
+  margin-left: 20px;
+}
+.card-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+.why-sitos a {
+  margin-top: 5%;
+  margin-bottom: 20px;
+}
+.biochar-creation {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)),
+    url("images/DSC_0029.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+.biochar-creation .box {
+  width: 95%;
+  height: auto;
+  flex-direction: column;
+}
+.biochar-creation .box h1 {
+  font-size: 60px;
+  font-weight: 400;
+}
+.biochar-creation .box p {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.help-us {
+  width: 100%;
+  height: 60vh;
+  background: white;
+  padding: 30px 0px 30px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+    url("images/image-asset.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.help-us .box {
+  width: 70%;
+  height: auto;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.help-us .box h1 {
+  font-size: 50px;
+}
+.help-us .box a {
+  background: black;
+}
+.footer {
+  width: 100%;
+  height: 70vh;
+  background: black;
+  background-attachment: fixed;
+  flex-direction: column;
+}
+.footer .img {
+  width: 60%;
+  height: 40%;
+  flex-direction:column;
+  gap: 10px;
+}
+.footer .img img {
+  width: 60%;
+  height: 70%;
+}
+.footer .img p {
+  color: #a9ef40;
+  font-style: italic;
+}
+.btn-group {
+  width: 30%;
+  min-height: 100px;
+  padding: 10px;
+  background: #141313;
+  border-radius: 10px;
+}

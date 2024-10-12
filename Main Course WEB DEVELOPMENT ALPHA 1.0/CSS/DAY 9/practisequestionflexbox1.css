@@ -1,0 +1,27 @@
+#outer{
+    height: 400px;
+    width:400px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    border: 2px solid rgb(12, 208, 234);
+    border-radius: 5px;
+    padding:25px 25px;
+    background-color: white;
+    align-items:center;
+
+}
+#outer div{
+    height:100px;
+    width:100px;
+    font-size:50px;
+    background-color: rgba(10, 10, 10, 0.768);
+    color:black;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid black;
+
+}

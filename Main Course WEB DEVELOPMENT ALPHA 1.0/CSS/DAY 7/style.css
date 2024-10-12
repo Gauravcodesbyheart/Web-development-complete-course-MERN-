@@ -1,0 +1,21 @@
+div{
+    height:300px;
+    width:400px;
+    background-color:pink;
+    border-width:10px;
+    border-style:solid;
+    border-color:black;
+    padding-top: 20px;
+
+
+}
+h1{ height:100px;
+    border: 10px dashed green;
+    border-left-color: blue;
+    background-color: blueviolet;
+    border-radius:15px;   /* With the help of button shorthand we can write other  command for this particular thing is that ---
+    border: width style color; */
+}
+button{
+    padding:20px;
+}

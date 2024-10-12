@@ -1,0 +1,40 @@
+div{
+    height:200px;
+    width:200px;
+    background-color: blueviolet;
+    border: 5px solid black;
+    transition: 1s;
+    box-shadow:2px 2px 10px green;
+   
+    
+}
+div:hover{
+    border-radius:50%;
+    background-color:red;
+    border-color:blueviolet;
+    transform:scale(0.5);
+}
+#inner{
+    background-color:aquamarine;
+    border:red;
+    transition: margin-top 2s ease-in-out delay;
+}
+#inner:hover{
+    border-radius:50%;
+    background-color:red;
+    border-color:blueviolet;
+    transform:scale(2);
+}
+.good{
+    background-color:blue;
+    border: 5px solid black;
+    transition: margin-top 2s ease-in 0.5s;
+    background-image: url(mypic.jpg);
+    background-size:cover;
+}
+.good:hover{
+    background-color:black;
+    border: 5px solid blue;
+    margin-top:400px;
+}
+

@@ -1,0 +1,49 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+    h1{
+    background-color: blanchedalmond;
+    color: aqua;
+    text-align:center;
+    font-weight:400;
+    text-decoration:underline;
+    letter-spacing: 2.5*normal;
+}
+h2{
+    background-color: aquamarine;
+    color: blue;
+    text-align:end;
+    font-weight:700;
+    text-decoration:overline;
+
+}
+h3{
+    text-align:justify;
+    font-weight:normal;
+    text-decoration:line-through;
+
+}
+h4{
+    text-align:right;
+    font-weight:bold;
+    text-decoration:double red underline;
+    line-height: 0.5;
+
+}
+h5{
+    text-align:left;
+    text-decoration:wavy underline;
+
+}
+p{
+    text-align:start;
+    font-weight:bold;
+    text-decoration:dotted line-through;
+    line-height:normal;
+    letter-spacing: 2.5*normal;
+
+}
+a{
+    text-decoration:none;
+    line-height: 2.5*normal;
+}

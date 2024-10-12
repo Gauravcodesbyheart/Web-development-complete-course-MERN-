@@ -1,0 +1,68 @@
+#Box1{
+    height:100px;
+    width:400px;
+    background-color: aqua;
+    margin: 20px auto;
+    text-align: center;
+    color:red;
+}
+#Box1:hover{
+           transform:scale(0.5);
+           transition-duration: 1s;
+           transition-timing-function: ease-in-out;
+}
+#Box2{
+    height:100px;
+    width:400px;
+    background-color: black;
+    margin: 20px auto;
+    text-align: center;
+    color:red;
+}
+#Box2:hover{
+    transform:scale(2);
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+#Box3{
+    height:100px;
+    width:400px;
+    background-color: aqua;
+    margin: 20px auto;
+    text-align: center;
+    color:red;
+    box-shadow:2px 2px 8px yellow;
+}
+#Box3:hover{
+    transform:translate(40px,-50px);
+    
+}
+#Box4{
+    height:100px;
+    width:400px;
+    background-color: black;
+    margin: 20px auto;
+    text-align: center;
+    color:red;
+}
+#Box4:hover{
+    transform:skew(50deg);
+}
+#Box5{
+    height:400px;
+    width:400px;
+    background-color: rgb(34, 255, 0);
+    margin: 20px auto;
+    text-align: center;
+    color:red;
+    background-image: url("roman.jpg");
+    background-size:cover;
+}
+#Box6{
+    height:400px;
+    width:400px;
+    background-color: black;
+    margin: 20px auto;
+    text-align: center;
+    color:red;
+}
